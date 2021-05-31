@@ -1,0 +1,71 @@
+.goal{
+    font-size: 14px;
+}
+.share{
+    background: transparent;
+    border: 2px solid $secondary;
+    &:hover{
+        background: $warning;
+        border: 2px solid $warning;
+    }
+}
+.product-img{
+    border-radius: 33px;
+}
+.productDel{
+    background: white;
+}
+.form-focus:focus , .modal input:focus , .btn:focus , .accordion-button:focus{
+    outline: 0;
+    border: 1px solid #FF785E;
+    box-shadow: 0 0 0 0.25rem #ff795e94;
+}
+.project-content{
+    line-height: 2rem;
+}
+.share:hover>.custom-heart { color:red; }
+.sticky-link{
+    border-bottom: 2px solid $warning;
+}
+.project{
+    background: white;
+}
+
+.proposer{
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    .btn{
+        background: transparent;
+        border: 2px solid $secondary;
+        &:hover{
+        color: $secondary;
+        }
+    }
+}
+.selectProject{
+    border-radius: 8px;
+    h5{
+        font-size: 18px;
+    }
+}
+.ff-minor{
+    font-family: 'Baloo Tamma 2' , sans-serif;
+}
+.nav-top{
+    top: 80px;
+}
+.nav-h{
+    height: calc(100vh - 80px);
+}
+.sponsor-fixed{
+    z-index: 999;
+    border-radius: 99px;
+}
+@include pad(){
+    .sponsor-fixed{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-radius: 0px;
+    }
+}

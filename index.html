@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拼拼</title>
+    <link rel="shortcut icon" href="">
+    <meta name='description' content='拼拼'/>
+    <link href="" rel="apple-touch-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Baloo+Tamma+2" rel="stylesheet" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container-fluid mb-10 p-0">
+        <nav class="navbar navbar-expand-lg navbar-light border-3 border-bottom border-warning bg-white">
+            <div class="container header">
+                <a class="navbar-brand" href="#">
+                    <h1>
+                        <a href="#">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/logo.jpg" width="111" height="40" class="logo" alt="拼拼 ">
+                        </a>
+                    </h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header-link" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-6">
+                            <a class="nav-link link-dark" aria-current="page" href="#">關於</a>
+                        </li>
+                        <li class="nav-item active mx-6">
+                            <a class="nav-link link-dark" aria-current="page" href="#">挖寶</a>
+                        </li>
+                            <li class="nav-item active mx-6">
+                            <a class="nav-link link-dark" aria-current="page" href="#">我有個大膽的想法</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="logIn btn w-50 rounded-pill me-3" type="button"  data-bs-toggle="modal" data-bs-target="#log-in" >登入</button>
+                        <button class="signUp btn w-50 rounded-pill" type="button" >註冊</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container pb-sm-10 mb-5 mb-sm-10">
+        <div class="product">
+            <span class="badge bg-secondary mb-1">魔法科技</span>
+            <h2 class="mb-6">拍出會動的照片｜LivePhotos 魔法拍立得</h2>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/produt_image.jpg" class="img-fluid product-img" alt="">
+                </div>
+                <div class="col-12 col-lg-5 p-6">
+                    <p class="goal text-dark">目標 $600,000</p>
+                    <h2 class="fw-bold">$280,047</h2>
+                    <div class="progress mb-5">
+                        <div class="progress-bar bg-warning text-dark" role="progressbar" style="width: 41%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-6">
+                            <p class="goal m-0 text-secondary">贊助人數</p>
+                            <h2 class="fw-bold py-3">1374人</h2>
+                        </div>
+                        <div class="col-6">
+                            <p class="goal m-0 text-secondary">募資倒數</p>
+                            <h2 class="fw-bold py-3">27天</h2>
+                        </div>
+                    </div>
+                    <div class="row d-flex list-unstyled mb-5">
+                        <a href="#" class="col-auto">
+                            <img src="https://hexschool.github.io/boootstrap5WebLayout/assets/icon_good01.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="合格標章">
+                        </a>
+                        <a href="#" class="col-auto">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/icon_good02.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="優良品質">
+                        </a>
+                        <a href="#" class="col-auto">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/icon_good03.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="專利認證">
+                        </a>
+                        <a href="#" class="col-auto">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/icon_good04.svg" data-bs-toggle="tooltip" data-bs-placement="top" title="募資首選">
+                        </a>
+                    </div>
+                    <div class="border-3 rounded-3 border-start border-warning bg-white text-dark mb-6">
+                        <p class="px-4 py-3">
+                            專案募資中！</br>
+                            在 <span class="fw-bold"> 2021/06/14 23:59 </span>募資結束前，您都可以贊助我們！
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <form class="mb-3">
+                            <button class="project-btn btn w-100 rounded-pill fs-5 fw-bold py-3" type="submit">贊助方案</button>
+                        </form>
+                    </div>
+                    <div class="col-12">
+                        <form class="row">
+                            <div class="col-12 d-flex">
+                                <div class="col-8 pe-2">
+                                    <button class="share btn w-100 rounded-pill text-secondary fs-5 fw-bold py-3" type="submit">
+                                        <i class="fas fa-heart custom-heart"></i>
+                                        追蹤專案
+                                    </button>
+                                </div>
+                                <div class="col-4">
+                                    <button class="border border-secondary border-2 btn w-100 rounded-pill text-secondary fs-5 fw-bold py-3" type="submit">
+                                        <i class="fas fa-share-alt"></i>
+                                        分享
+                                    </button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                      
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid headerSticky position-sticky top-0">
+        <div class="container">
+            <ul class="nav d-flex justify-content-around justify-content-lg-start" role="tablist" aria-orientation="vertical">
+                <li class="nav-item">
+                    <a class="sticky-link nav-link link-dark py-6 px-2 px-sm-5" href="index.html" role="tab" aria-controls="tab-detail" aria-selected="true">專案介紹</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark py-6 px-2 px-sm-5" href="faq.html" role="tab" aria-controls="tab-news" aria-selected="false">常見問答</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark py-6 px-2 px-sm-5" href="schedule.html" role="tab" aria-controls="tab-qa" aria-selected="false">目前進度</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark py-6 px-2 px-sm-5" href="write.html" role="tab" aria-controls="tab-comment" aria-selected="false">留言</a>
+                </li>
+              </ul>
+        </div>
+    </div>
+    <!-- 以上為layout -->
+    <div class="container-fluid project py-10">
+        <div class="container">
+            <div class="row justify-content-between mb-8">
+                <div class="col-12 col-lg-7 p-0 p-sm-3">
+                    <div class="project-content mb-10">
+                        <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/p1.jpg" class="mb-6 img-fluid" alt="商品概念照">
+                        <h3 class="border-start border-warning border-4 ps-4">
+                            施了魔法的照片
+                        </h3>
+                        <p class="mb-6">
+                            受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
+                        </p>
+                        <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/p2.jpg" class="mb-6 img-fluid" alt="商品概念照">
+                        <h3 class="border-start border-warning border-4 ps-4">
+                            留下當下的美好
+                        </h3>
+                        <p class="m-0">
+                            受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。
+                        </p>
+                    </div>
+                    <!-- 以下為layout -->
+                    <div class="row my-8 my-sm-10">
+                        <div class="project-money d-none d-lg-block">
+                            <div class="d-flex justify-content-center">
+                                <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/hezuo.svg" alt="贊助專案">
+                            </div>
+                            <div class="position-relative my-5">
+                                <div class="progress bg-warning" style="height: 3px;">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                                <div class="position-absolute top-0 start-50 translate-middle h3 bg-white text-center px-3">
+                                    贊助專案
+                                </div>
+                            </div>
+                            <form>
+                                <div class="mb-3">
+                                <label for="project" class="form-label">贊助方案</label>
+                                <select class="form-focus form-select border-light bg-light text-muted" id="project" aria-label="select project">
+                                    <option selected="">請選擇一個方案</option>
+                                    <option value="1">方案1</option>
+                                    <option value="2">方案2</option>
+                                    <option value="3">方案3</option>
+                                    <option value="3">方案4</option>
+                                </select>
+                                </div>
+                    
+                                <div class="mb-3">
+                                <label for="name" class="form-label">收件人姓名</label>
+                                <input type="text" class="form-focus form-control border-light bg-light" id="name">
+                                </div>
+                    
+                                <div class="mb-3">
+                                <label for="address" class="form-label">收件地址</label>
+                                <input type="text" class="form-focus form-control border-light bg-light" id="address">
+                                </div>
+                    
+                                <div class="mb-3">
+                                <label for="phone" class="form-label">聯絡電話</label>
+                                <input type="text" class="form-focus form-control border-light bg-light" id="phone">
+                                </div>
+                    
+                                <div class="mb-3">
+                                <label for="email" class="form-label">聯絡信箱</label>
+                                <input type="text" class="form-focus form-control border-light bg-light" id="email">
+                                </div>
+                    
+                                <div class="mb-3">
+                                <label for="payment" class="form-label">付款方式</label>
+                                <select id="payment" class="form-focus form-select border-light bg-light text-muted" aria-label="select payment">
+                                    <option selected="">信用卡付款</option>
+                                    <option value="2">貨到付款</option>
+                                </select>
+                                </div>
+                    
+                                <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-warning btn-lg col-12 col-md-5 col-lg-3 fw-bold text-dark rounded-pill mt-2 px-10">
+                                    贊助專案
+                                </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- 以下為layout -->
+                <div class="col-12 col-lg-5 p-0 p-sm-3">
+                    <div class="position-sticky overflow-scroll nav-top nav-h">
+                        <div class="proposer mb-6 p-4">
+                            <div class="d-flex align-items-center">
+                                <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/store_img.jpg" alt="提案者圖像">
+                                <div class="proposer-del d-dlex justify-content-canter align-items-center p-4">
+                                    <h4 class="pb-2">缺錢事務所</h4>
+                                    <p class="m-0">已發起<span class="fw-bold"> 1 </span>個專案</p>
+                                </div>
+                            </div>
+                            <p>需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex">
+                                    <div class="bg-secondary rounded-circle text-center me-2" style="width: 30px;height: 30px;">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f text-white lh-lg"></i>
+                                        </a>
+                                    </div>
+                                    <div class="bg-secondary rounded-circle text-center" style="width: 30px;height: 30px;">
+                                        <a href="#">
+                                            <i class="fab fa-youtube text-white lh-lg"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill px-3">
+                                    <i class="far fa-comment-dots me-2 text-secondary"></i>聯絡我們
+                                </button>
+                            </div>
+                        </div>
+                        <div class="border-start border-end border-4 border-warning rounded bg-light h5 fw-bold text-center mt-4 p-2">
+                            選擇一個方案來支持
+                        </div>
+                        <div class="card selectProject mt-3">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/img.jpg" class="card-img-top" alt="商品縮圖照">
+                            <div class="card-body pt-2">
+                                <div class="d-flex justify-content-between align-items-center border-bottom mb-3 pb-2">
+                                    <span class="fz-14 text-dark">限時優惠</span>
+                                    <span class="text-dark ff-minor fz-14">2 days 20:05:20</span>
+                                </div>
+                                <h5 class="fw-bold">買一送一，只有兩百組別錯過</h5>
+                                <h4 class="ff-minor fw-bold h4">NT$ 1600</h4>
+                                <span class="badge bg-beige text-secondary px-3 me-2">已被贊助88次</span>
+                                <span class="badge bg-secondary text-white px-3">
+                                    限量<span class="text-warning">200</span>個
+                                </span>
+                                <p class="text-secondary mt-2">
+                                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                                </p>
+                                <a href="#" class="project-btn btn w-100 btn-warning rounded-pill fw-bold p-2">贊助此專案</a>
+                            </div>
+                        </div>
+                        <div class="card selectProject mt-3">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/img.jpg" class="card-img-top" alt="商品縮圖照">
+                            <div class="card-body pt-2">
+                                <div class="d-flex justify-content-between align-items-center border-bottom mb-3 pb-2">
+                                    <span class="fz-14 text-dark">限時優惠</span>
+                                    <span class="text-dark ff-minor fz-14">2 days 20:05:20</span>
+                                </div>
+                                <h5 class="fw-bold">買一送一，只有兩百組別錯過</h5>
+                                <h4 class="ff-minor fw-bold h4">NT$ 1600</h4>
+                                <span class="badge bg-beige text-secondary px-3 me-2">已被贊助88次</span>
+                                <span class="badge bg-secondary text-white px-3">
+                                    限量<span class="text-warning">200</span>個
+                                </span>
+                                <p class="text-secondary mt-2">
+                                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                                </p>
+                                <a href="#" class="project-btn btn w-100 btn-warning rounded-pill fw-bold p-2">贊助此專案</a>
+                            </div>
+                        </div>
+                        <div class="card selectProject mt-3">
+                            <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/img.jpg" class="card-img-top" alt="商品縮圖照">
+                            <div class="card-body pt-2">
+                                <div class="d-flex justify-content-between align-items-center border-bottom mb-3 pb-2">
+                                    <span class="fz-14 text-dark">限時優惠</span>
+                                    <span class="text-dark ff-minor fz-14">2 days 20:05:20</span>
+                                </div>
+                                <h5 class="fw-bold">買一送一，只有兩百組別錯過</h5>
+                                <h4 class="ff-minor fw-bold h4">NT$ 1600</h4>
+                                <span class="badge bg-beige text-secondary px-3 me-2">已被贊助88次</span>
+                                <span class="badge bg-secondary text-white px-3">
+                                    限量<span class="text-warning">200</span>個
+                                </span>
+                                <p class="text-secondary mt-2">
+                                    受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。
+                                </p>
+                                <a href="#" class="project-btn btn w-100 btn-warning rounded-pill fw-bold p-2">贊助此專案</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 以下為layout -->
+            <div class="row">
+                <div class="project-money col-12 col-lg-7 d-block d-lg-none p-0">
+                    <div class="d-flex justify-content-center">
+                        <img src="https://ecjia.com.tw/demo/bs5_homework_0526/assets/hezuo.svg" alt="贊助專案">
+                    </div>
+                    <div class="position-relative my-5">
+                        <div class="progress bg-warning" style="height: 3px;">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <div class="position-absolute top-0 start-50 translate-middle h3 bg-white text-center px-3">
+                            贊助專案
+                        </div>
+                    </div>
+                    <form>
+                        <div class="mb-3">
+                          <label for="project" class="form-label">贊助方案</label>
+                          <select class="form-focus form-select border-light bg-light text-muted" id="project" aria-label="select project">
+                            <option selected="">請選擇一個方案</option>
+                            <option value="1">方案1</option>
+                            <option value="2">方案2</option>
+                            <option value="3">方案3</option>
+                            <option value="3">方案4</option>
+                          </select>
+                        </div>
+              
+                        <div class="mb-3">
+                          <label for="name" class="form-label">收件人姓名</label>
+                          <input type="text" class="form-focus form-control border-light bg-light" id="name">
+                        </div>
+              
+                        <div class="mb-3">
+                          <label for="address" class="form-label">收件地址</label>
+                          <input type="text" class="form-focus form-control border-light bg-light" id="address">
+                        </div>
+              
+                        <div class="mb-3">
+                          <label for="phone" class="form-label">聯絡電話</label>
+                          <input type="text" class="form-focus form-control border-light bg-light" id="phone">
+                        </div>
+              
+                        <div class="mb-3">
+                          <label for="email" class="form-label">聯絡信箱</label>
+                          <input type="text" class="form-focus form-control border-light bg-light" id="email">
+                        </div>
+              
+                        <div class="mb-3">
+                          <label for="payment" class="form-label">付款方式</label>
+                          <select id="payment" class="form-focus form-select border-light bg-light text-muted" aria-label="select payment">
+                            <option selected>信用卡付款</option>
+                            <option value="2">貨到付款</option>
+                          </select>
+                        </div>
+              
+                        <div class="col-12 col-lg-3 d-flex justify-content-center">
+                          <button type="submit" class="sponsor-fixed btn btn-warning btn-lg col-12 col-lg-3 fw-bold text-dark mt-2 px-10">
+                            贊助專案
+                          </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 以下為footer -->
+    <div class="container-fluid footer text-center text-white p-8">
+        Copyright © 拼拼 All rights reserved.
+    </div>
+    <div class="modal" tabindex="-1" id="log-in">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-4 fw-bold">登入</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+      
+              <label for="mail" class="form-label">帳號</label>
+              <input type="email" id="mail" class="form-control bg-gray mb-4">
+              <label for="password" class="form-label">密碼</label>
+              <input type="password" id="password" class="form-control bg-gray mb-3">
+              <a href="#" class="goal text-muted text-secondary">
+                忘記密碼？
+              </a>
+              <button class="btn btn-warning w-100 rounded-pill my-3">登入</button>
+              <div class="position-relative my-4">
+                <div class="progress" style="height: 1px;">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+                <div class="goal position-absolute top-0 start-50 translate-middle bg-white text-secondary text-center text-muted px-2">還沒有帳號？<a href="#" class="link-danger ms-1">註冊一個帳號</a></div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

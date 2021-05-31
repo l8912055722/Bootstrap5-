@@ -1,0 +1,8 @@
+.footer{
+    background: #494846;
+}
+@include mobile(){
+    .footer{
+        font-size: 14px;
+    } 
+}
